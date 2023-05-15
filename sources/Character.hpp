@@ -15,8 +15,10 @@ namespace ariel{
             Character();
             Character(string name , const Point& point1);
 
+            ~Character();
+
             //setter 
-            void setHealth();
+            void setHealth(int health);
 
             //getter
             Point getLoction();
@@ -27,7 +29,7 @@ namespace ariel{
             double distance (const Point& point1);// distance between 2 characters
             virtual void hit(int num); // reduce the health of the character 
             virtual string print();// print: name , health ,location , isAlive() 
-            ~Character();
+            
 
 
 
