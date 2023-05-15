@@ -7,8 +7,6 @@ namespace ariel{
 
     }
 
-    OldNinja::~OldNinja(){
-
-    }
+    //OldNinja::~OldNinja(){}
 
 }

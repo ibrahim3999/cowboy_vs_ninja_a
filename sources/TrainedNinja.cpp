@@ -5,7 +5,5 @@ namespace ariel{
 
     }
 
-    TrainedNinja::~TrainedNinja(){
-        
-    }
+   // TrainedNinja::~TrainedNinja(){}
 }

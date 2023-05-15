@@ -19,8 +19,19 @@ namespace ariel{
         return Point();
     }
         
-    void print(){
+    void Point::print(){
 
     };
+
+    bool Point::operator==(const Point& other) const {
+            return x_coord == other.x_coord && y_coord == other.y_coord;
+        
+    }
+    double  Point::getX_coord(){
+        return x_coord;
+    }
+    double  Point::getY_coord(){
+        return y_coord;
+    }
 
 }

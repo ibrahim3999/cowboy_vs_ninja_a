@@ -7,12 +7,13 @@ namespace ariel{
 
     }
 
+  //  Cowboy::~Cowboy(){}
 
     void Cowboy::shoot(Character* enemy){
 
     }
 
-    bool Cowboy::hasbullets(){
+    bool Cowboy::hasBullets(){
         return true;
     }
     
@@ -20,10 +21,7 @@ namespace ariel{
 
     }
 
-    Cowboy::~Cowboy(){
-
-    }
-
+    
     int Cowboy::getAmountOfBalls(){
         return 0;
     }

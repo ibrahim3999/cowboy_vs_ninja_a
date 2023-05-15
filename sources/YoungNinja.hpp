@@ -7,7 +7,7 @@ namespace ariel
 
         public:
             YoungNinja(string ,const Point&);
-            ~YoungNinja();
+        //    ~YoungNinja();
     };
 
 } // namespace ariel

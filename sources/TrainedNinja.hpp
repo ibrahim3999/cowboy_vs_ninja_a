@@ -7,6 +7,6 @@ namespace ariel{
 
         public:
             TrainedNinja(string, const Point&);
-            ~TrainedNinja();
+         //   ~TrainedNinja();
     };
 }

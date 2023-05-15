@@ -7,7 +7,8 @@ namespace ariel{
 
 
         public:
-            Team2::Team2(Character*);
+            Team2();
+            Team2(Character*);
 
     };
 }

@@ -19,6 +19,7 @@ namespace ariel{
 
     }
     int Ninja::getSpeed(){
+        return 0;
 
     }
 }

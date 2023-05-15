@@ -5,9 +5,7 @@ namespace ariel{
    Team::Team(){
 
    }
-   Team::~Team(){
-    
-   }
+   //Team::~Team(){}
 
    Team::Team(Character* leader){
 
@@ -16,6 +14,10 @@ namespace ariel{
    void Team::add(Character * character){
 
    }
+   void Team::remove(Character * character){
+
+   }
+   
    void Team::attack(Team* enemyTeam){
 
    }
@@ -23,6 +25,12 @@ namespace ariel{
     return 0;
   
    };
+   void Team::print(){
+
+   }
+   int Team::getTeamSize(){
+      return 0;
+   }
 
 
 }
